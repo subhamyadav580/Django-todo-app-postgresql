@@ -8,6 +8,5 @@ The classic To-Do application where a user can write down all the things he want
 -   [ ] User can also have Authentication system such as login, signup, profile, changing passwords etc.
 <img src="Screenshot_2020-06-14 Todo.png">
 <img src="Screenshot_2020-06-14 Todo(1).png">
-<img src="Screenshot_2020-06-14 Todo(2).png">
 <img src="Screenshot_2020-06-14 Todo(3).png">
 <img src="Screenshot_2020-06-14 Todo(4).png">
