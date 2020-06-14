@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+
+    <div class="content-section">
+        <form action="" method="post" autocomplete="off">
+            {% csrf_token %}
+            <h2>Are you sure you want to delete Todo "{{object.todo}}"</h2>
+            <div class="input-group">
+                    <button type="submit" class="btn btn-lg text-white bg-danger" onclick="show()">
+                       Yes, Delete
+                    </button>
+                    <a class="btn btn-lg text-white bg-secondary" href="{% url 'todo-detail' object.id %}">
+                        Cancel
+                    </a>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+{% endblock content %}
