@@ -144,4 +144,4 @@ EMAIL_HOST_USER = 'shubham2018cs137abesit@gmail.com'
 
 # EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
-EMAIL_HOST_PASSWORD = 'Pycode@12345'
+EMAIL_HOST_PASSWORD = '***********'
